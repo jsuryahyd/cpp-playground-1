@@ -1,14 +1,19 @@
 #include <iostream>
 
-#include "vectors.h";
+#include "vectors.h"
+#include "map-ds/maps.h"
 
-
-int main() {
-  auto whatever = 1.2;
+void dynamicVariable(){
+    auto whatever = 1.2;
   whatever = 1;//valid
   // whatever = "A";//wrong
-vectors();
-  std::cout << whatever ;  
+  std::cout << whatever ; 
+}
+
+int main() {
+    //  dynamicVariable();
+    // vectors();
+    maps();
     return 0;
 }
 
