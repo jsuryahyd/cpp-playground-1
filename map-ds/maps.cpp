@@ -17,7 +17,7 @@ void maps(){
   std::cout << "My name is " << myData.name << " and my age is " << myData.age << std::endl;
 
 
-  MyStruct yourData = MyStruct{};
+  MyStruct yourData = MyStruct{};//doesnot create a memory addrsess yet(?)
 
 }
 
