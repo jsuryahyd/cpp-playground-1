@@ -1,10 +1,16 @@
 #include <iostream>
-#include "sum.h"
+
+#include "vectors.h";
 
 
 int main() {
-    std::cout << "Hello, world!\n" ;
-    std::cout << Arithmetic::sum(3,289) << std::endl;
-    std::cout << strMethods::sum(strMethods::sum("Bye","World"),"\n");
+  auto whatever = 1.2;
+  whatever = 1;//valid
+  // whatever = "A";//wrong
+vectors();
+  std::cout << whatever ;  
     return 0;
 }
+
+
+
